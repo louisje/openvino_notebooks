@@ -80,7 +80,7 @@ SUPPORTED_LLM_MODELS = {
             + """<start_of_turn>user{input}<end_of_turn><start_of_turn>context{context}<end_of_turn><start_of_turn>model""",
         },
         "phi-3-mini-instruct": {
-            "model_id": "microsoft/Phi-3-mini-4k-instruct",
+            "model_id": "microsoft/Phi-3-mini-128k-instruct",
             "remote_code": True,
             "start_message": "<|system|>\n{DEFAULT_SYSTEM_PROMPT}<|end|>\n",
             "history_template": "<|user|>\n{user}<|end|> \n<|assistant|>\n{assistant}<|end|>\n",
